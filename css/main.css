@@ -130,8 +130,22 @@ ul li a:hover
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	margin-top: 50px;
+
+	/*background-color: grey;*/
+	height: 720px;
+	/*background-image: url('../images/team.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50px;*/
+
 }
 
-.aboutTitle 
-
+.aboutTitle p
+{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 100px;
+	margin-top: 13.5%;
+	margin-bottom: 50px;
+}
 /* Main Body Styling Ends*/
