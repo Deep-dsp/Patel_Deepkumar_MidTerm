@@ -1,0 +1,70 @@
+body
+{
+	max-width: 1500px;
+	margin: auto;
+}
+
+/* Header Styling */
+
+header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 50px;
+	/*background-color: grey;*/
+}
+
+.logo img
+{
+	width: 100px;
+	height: auto;
+}
+
+nav
+{
+	margin-left: 420px;
+	margin-top: 80px;
+}
+
+ul li
+{
+	display: inline-block;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-left: 50px;
+}
+
+ul li a
+{
+	text-decoration: none;
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+	margin-left: 20px;
+	letter-spacing: 1.5px;
+	color: black;
+	position: relative;
+	transition: .5s;
+	padding: 8px;	
+}
+
+.navHover::after
+{
+	content: '';
+	width: 5%;
+	height: 2px;
+	background-color: red;
+	position: absolute;
+	bottom: 0%; 
+	left: 100%;
+	transition: all 500ms ease;
+	opacity: 0;
+}
+
+.navHover:hover::after
+{
+	left: 0%;
+	width: 100%;
+	opacity: 1;
+}
+
