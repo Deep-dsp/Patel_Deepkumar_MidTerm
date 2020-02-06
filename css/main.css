@@ -121,3 +121,17 @@ ul li a:hover
 	opacity: 1;
 }
 
+/* Header Styling Ends Here */
+
+/* Main Body Styling */
+
+.aboutTitle
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.aboutTitle 
+
+/* Main Body Styling Ends*/
