@@ -242,14 +242,94 @@ form input, textarea
 	width: 450px;
 	background-color: #F8F8F8;
 }
+
 form input
 {
 	border-radius: 50px;
 }
+
 form textarea
 {
 	border-radius: 20px;
 }
 
+.addressPanel
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
 
+	/*background-color: black;*/
+	border-radius: 10px;
+	margin-top: 60px;
+	background: #2980b9; 
+    background: -webkit-linear-gradient(to left, #2c3e50, #2980b9);  
+    background: linear-gradient(to left, #00C8B7, #087767); 
+}
+
+.addCol
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	
+	padding-left: 50px;
+}
+
+.add
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+.addInfo
+{
+	color: white;
+	line-height: 20px;
+}
+
+.map iframe
+{
+	width: 500px;
+	height: 300px;
+	margin-left: 670px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 20px;
+}
+
+#button
+{
+	background:none;
+	border: 1px solid ##087767;
+	color: #087767;
+	font-size: 25px;
+	cursor: pointer;
+	padding: 10px 20px;
+	border-radius: 10px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 180px;
+	transition: .6s;
+}
+
+#button:hover
+{
+	background: #338033;
+	cursor: pointer;
+	color: white;
+	transform: scale(1.08);
+}
+
+
+
+.aboutFoot
+{
+	margin-top: 60px;
+	border-radius: 10px;
+}
 /* Contact page Style Ends*/
