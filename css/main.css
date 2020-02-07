@@ -189,3 +189,67 @@ footer
 }
 
 /* Footer Styling Ends*/
+
+
+/* contact Page styling starts here*/
+
+.contactTitle
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.contactTitle p
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	margin-top: 10px;
+}
+
+.reachCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	margin-top: 50px;
+}
+
+.reachCon object
+{
+	width: 500px;
+	height: auto;
+	margin-left: 50px;
+	margin-top: 150px;
+}
+
+.contactForm
+{
+	margin-top: 80px;
+}
+
+::placeholder
+{
+	font-size: 20px;
+	color: #909090;
+	opacity: 0.45;
+}
+
+form input, textarea
+{
+	padding: 18px;
+	width: 450px;
+	background-color: #F8F8F8;
+}
+form input
+{
+	border-radius: 50px;
+}
+form textarea
+{
+	border-radius: 20px;
+}
+
+
+/* Contact page Style Ends*/
