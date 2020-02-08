@@ -450,15 +450,6 @@ form textarea
 	color: red;
 }
 
-.productGrid
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-
-	margin-left: 250px;
-}
-
 .rowOne
 {
 	display: flex;
@@ -475,20 +466,13 @@ form textarea
 	border-radius: 5px;
 }
 
-.secImage img
-{
-	width: 450px;
-	height: auto;
-	border-radius: 5px;
-}
-
-.onePara, .secPara
+.onePara
 {
 	width: 600px;
 	height: auto;
 }
 
-.onePara p, .secPara p
+.onePara p
 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
@@ -498,214 +482,4 @@ form textarea
 	margin-left: 50px;
 	margin-top: 70px;
 }
-
-.rowSec
-{
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: flex-end;
-
-	margin-top: 100px;
-}
-
-#buttonProduct
-{
-	background:none;
-	border: 1px solid #087767;
-	color: #087767;
-	font-size: 25px;
-	cursor: pointer;
-	padding: 10px 20px;
-	border-radius: 10px;
-	margin-top: 50px;
-	transition: .6s;
-}
-
-#buttonProduct:hover
-{
-	background: #338033;
-	cursor: pointer;
-	color: white;
-}
-
-.buttonP
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin-right: 380px;
-}
-
 /* Product Page Styling Ends Here */
-
-/* Process page styling */
-
-	/* Animation stuffs style*/
-
-.animation
-{
-	transform: scale(2.25);
-	margin-top: 250px;
-	margin-right: 80px;
-}
-
-.animationClass
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-
-	margin-top: 60px;
-
-	position: relative;
-}
-
-.ringAnime
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-
-	margin-top: 60px;
-}
-
-.animationClass span object
-{
-	width: 20px;
-	height: auto;
-	transform: scale(3.5);
-}
-
-.animationClass span 
-{
-
-	position: absolute;
-	display:inline-block;
-	animation-name: process;
-	animation-duration: 4s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-	opacity: 0;
-}
-
-@keyframes process
-{
-	0%
-	{
-		opacity: 0;
-		transform: translateX(0) rotate(-45deg);
-	}
-
-	50%
-	{
-		opacity: 1;
-		transform: translateX(100px) rotate(-45deg);
-	}
-	100%
-	{
-		opacity: 0;
-		transform: translateX(200px) translateY(100px) rotate(1260deg);
-	}
-}
-
-.animationClass span:nth-child(1)
-{
-	animation-delay: 2s;
-}
-
-.animationClass span:nth-child(2)
-{
-	animation-delay: 4s;
-}
-
-.animationClass span:nth-child(3)
-{
-	animation-delay: 8s;
-}
-
-	
-
-.line
-{
-	width: 120px;
-	height: 3px;
-	background-color: darkgrey;
-	transform: translateX(20px) translateY(50px);
-
-}
-
-.gearRow
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-
-	margin-left: 45px;
-}
-
-.ringAnime
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-.ringAnime span object, .ringAnime2 span object
-{
-	width: 35px;
-	height: auto;
-}
-
-.ringAnime2 span object
-{
-	display: inline-block;
-	animation-name: ring;
-	animation-duration: 4s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-	/*margin-right: 50px;*/
-	margin-top: 60px;
-}
-
-.ringAnime span
-{
-	display: inline-block;
-	animation-name: ring;
-	animation-duration: 4s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-	margin-right: 50px;
-}
-
-@keyframes ring
-{
-	0%
-	{
-		transform: rotate(0deg);
-	}
-	100%
-	{
-		transform: rotate(360deg);
-	}
-}
-/* Animation stuffs style ends*/
-
-.processTitle
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-.processTitle p
-{
-	font-family: 'Oswald', sans-serif;
-	font-size: 50px;
-	margin-top: 10px;
-}
-
-.processTitle p span
-{
-	color: red;
-}
-/* Process page styling ends*/
