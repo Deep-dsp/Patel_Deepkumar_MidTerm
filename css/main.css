@@ -151,8 +151,6 @@ ul li a:hover
 	margin-left: 500px;
 	padding-top: 250px;
 	transform: rotateZ(-15deg);
-
-	text-shadow: 10px #000;
 }
 
 .chillTitle p
@@ -278,7 +276,6 @@ footer
 	margin-top: 18px;
 	margin-left: 15px;
 	color: white;
-	text-shadow: 5px;
 }
 
 .mediaIcon img
@@ -404,7 +401,7 @@ form textarea
 #button
 {
 	background:none;
-	border: 1px solid ##087767;
+	border: 1px solid #087767;
 	color: #087767;
 	font-size: 25px;
 	cursor: pointer;
@@ -419,7 +416,6 @@ form textarea
 #button:hover
 {
 	background: #338033;
-	cursor: pointer;
 	color: white;
 	transform: scale(1.08);
 }
@@ -729,7 +725,6 @@ form textarea
 	width: 1500px;
 	height: auto;
 	border-radius: 5px;
-	box-shadow: 5px #000;
 }
 
 .processContainer p
